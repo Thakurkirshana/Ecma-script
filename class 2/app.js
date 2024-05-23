@@ -40,6 +40,66 @@
 // }
 
 
-function(){
-    console.log('hello kirshanan')
+// var a = 'abcd'
+// console.log(a)
+
+
+// function(){
+//     console.log('hello kirshanan')
+// }
+
+//NORMAL FUNCTION
+// function abc (){
+//     console.log('HELLO')
+
+// }
+// abc()
+
+
+// FUNCTION EXPRESSION 
+// let foo = function (){
+//     console.log('saad')
+// }
+// foo()
+// let abc = () => {
+//     console.log('kirshana')
+// }
+// abc()
+
+
+// let abc2 = (a,b,c,d,e) => {
+//     console.log(a,b,c,d,e )
+// }
+// abc2('saad','kiehsn','ali','dekak','momm')
+
+
+// let sum = ( a, b) => {
+// return a +b 
+// }
+// console.log(sum(2,4))
+
+
+//ternary operator
+
+// var a = 5
+// if ( a=== 5){
+//     console.log('just okok')
+
+// }
+//  else{
+//     console.log(' not okok')
+//  }
+
+// var a =( 3 == 5 ?' han bhai ok': 'nikal')
+// console.log(a)
+
+ 
+let onBulb = () => {
+    let a = document.getElementById('bulb')
+    a.src = 'light-bulb-2-1427493.webp '
+}
+
+let offBulb = () => {
+    let a = document.getElementById('bulb')
+    a.src = 'e0fd25f9127a9a109a0648c83ee61643.png '
 }
